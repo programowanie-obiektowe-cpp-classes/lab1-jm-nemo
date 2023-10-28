@@ -5,6 +5,7 @@ private:
     double y;
 
 public:
+    Wektor2D() : x(0.0), y(0.0) {}  // Default constructor
     Wektor2D(double xVal, double yVal) : x(xVal), y(yVal) {}
 
     double getX() const {
